@@ -17,12 +17,14 @@ public class AnimalTest {
 
 		Mammal mammal = new Mammal();
 		mammal.mammalInfo();
-		mammal.animalInfo(); // Single Inheritance
+		mammal.animalInfo(); // Single Inheritance.Animal parent & Mammal child class
+		//Also Hierarchical inheritance Animal parents & Mammal child
 		System.out.println("\n---------------------------\n");
 
 		Reptile reptile = new Reptile();
 		reptile.reptileInfo();
 		reptile.animalInfo();  // Single Inheritance / Here Animal is parent class and Reptile is child class
+		//Also Hierarchical inheritance Animal parents & reptile child
 		System.out.println("\n---------------------------\n");
 
 		Birds birds = new Birds();
@@ -33,19 +35,19 @@ public class AnimalTest {
 		Dog dog = new Dog();
 		dog.dogInfo();
 		dog.mammalInfo();    //
-		dog.animalInfo();     //Hierarchical ****
+		dog.animalInfo();     //Hierarchical Inheritance ****
 		System.out.println("\n---------------------------\n");
 
 		Snake snake = new Snake();
 		snake.snakeInfo();
 		snake.reptileInfo();
-		snake.animalInfo();        //Hierarchical ****
+		snake.animalInfo();        // Hierarchical Inheritance ****
 		System.out.println("\n---------------------------\n");
 
 		Robin robin = new Robin();
 		robin.robinInfo();
 		robin.birdsInfo();
-		robin.animalInfo();          //Hierarchical ****
+		robin.animalInfo();          //Hierarchical Inheritance ****
 		System.out.println("\n---------------------------\n");
 
 		BullDog bullDog = new BullDog();
